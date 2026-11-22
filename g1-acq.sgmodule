@@ -1,0 +1,13 @@
+#!name=G1 ACQ (Tiếng Việt)
+#!desc=Ánh xạ mã sản phẩm trên trang đăng ký Google One /ai sang mã gói ưu đãi có trong danh mục (20TB/30TB AI Ultra); không chẩn đoán và không gửi báo cáo
+#!system=ios
+
+[Rule]
+# Khi Google App sử dụng HTTP/3, phản hồi có thể không giải mã được; cần chặn QUIC
+AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
+
+[Script]
+g1-acq = type=http-response,pattern=^https:\/\/one\.google\.com\/ai\?,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/crhywun/g1-acq@main/g1-acq.js
+
+[MITM]
+hostname = %APPEND% one.google.com
