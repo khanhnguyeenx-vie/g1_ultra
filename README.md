@@ -2,9 +2,7 @@
 
 [![Telegram](https://img.shields.io/badge/Telegram-Nh%C3%B3m%20chia%20s%E1%BA%BB%20%C6%B0u%20%C4%91%C3%A3i%20AI-26A5E4?logo=telegram&logoColor=white)](https://t.me/muihbb)
 
-> 💬 **Nhóm Telegram chia sẻ ưu đãi AI**: https://t.me/muihbb — trao đổi về ưu đãi AI và các gói đăng ký.
-
-Mô-đun ánh xạ mã sản phẩm dành cho trang đăng ký Google One (iOS), sử dụng với **Shadowrocket**.
+> Mô-đun ánh xạ mã sản phẩm dành cho trang đăng ký Google One (iOS), sử dụng với **Shadowrocket**.
 
 Trong phản hồi của trang đăng ký `one.google.com/ai`, mô-đun thay mã mua hàng trong ứng dụng iOS gốc của hai gói thanh toán hằng tháng 20 TB và 30 TB bằng mã của các gói ưu đãi đang tồn tại. Nhờ đó, bảng chọn gói có thể mở trang thanh toán App Store bằng mã gói ưu đãi.
 
